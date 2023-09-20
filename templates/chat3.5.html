@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Waste Recycle Assistant</title>
+  <title>RecyCraft</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
   
-  <link rel="stylesheet" href="static/style.css">
+  <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
   <style>
     html {
       scroll-behavior: smooth;
@@ -54,9 +54,9 @@ href="static/favicon.png">
     <div class="content">
       <form method="post" onsubmit="submit.disabled=true" id="myForm">
         <br>
-        <center><textarea name="question" placeholder="Type Keywords... like 'Plastic Bottle'" rows = '1' ></textarea></center>
+        <center><textarea id="userQuery" name="question" placeholder="Type Keywords... like 'Plastic Bottle'" rows = '2' ></textarea></center>
         <br>
-        <input type="submit" value="Ask Assistant" id='submit' class="bubbly-button">
+        <input type="submit" value="Ask Assistant" id="submit" class="bubbly-button">
         
       </form>
     </div>
@@ -120,8 +120,7 @@ href="static/favicon.png">
 
     Developed by <a ><b id="subh">Team Syntax Loopers</b></a>
     <br>
-    <div id="social">
-      <a href="https://www.linkedin.com/in/rohit-debnath-518201290/">LinkedIn</a> | <a href="https://www.github.com/rohit-dnath">GitHub</a>
+    <div id="social"><a href="https://github.com/syntaxLoopers2023">GitHub</a>
     </div>
     <br>
     <img src="{{ url_for('static', filename='images/peacock-feather.png') }}" alt="Image Preview" id="feather" height="65px">
