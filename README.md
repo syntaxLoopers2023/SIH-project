@@ -52,7 +52,7 @@ The RecyCraft Ecosystem is primarily built using the following programming langu
 
 ## Credits and Contributors 👥
 
-The RecyCraft Ecosystem is a collaborative effort by the dedicated team at **SyntaxLoopers2023**. We would like to express our gratitude to all contributors who have helped shape this project. Special thanks to Akash Nath, Chirag Nahata, Rohit Debnath, Sangjukta Bhattacharjee and Aditya Biswas for their invaluable contributions.
+The RecyCraft Ecosystem is a collaborative effort by the dedicated team at **SyntaxLoopers2023**. We would like to express our gratitude to all contributors who have helped shape this project. Special thanks to **Akash Nath, Chirag Nahata, Rohit Debnath, Sangjukta Bhattacharjee and Aditya Biswas** for their invaluable contributions.
 
 We also acknowledge the use of OpenAI's GPT-3, which has been instrumental in making the RecyCraft Ecosystem's AI capabilities possible.
 
